@@ -4,26 +4,26 @@ using namespace std;
 int main(){
 //-------------
 // A
-// B B
-// C C C
+// B C
+// D E F
 
 // row = 3
 // col = row no
 // map row with alphabet
-// Logic :  'A' + i - 1
+
 
     int n;
     cout << "Enter no of rows: ";
     cin >> n;
     int i = 1;
-    
+    char ch = 'A' ;
 
     while(i <= n){
         int j = 1;
-        while(j <= i){
-            char ch = 'A' + i - 1;
+        while(j <= i){           
             cout << ch  << "  ";
-            j++;           
+            j++;  
+            ch++;         
         }
         cout << endl;
         i++;
