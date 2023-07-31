@@ -16,6 +16,9 @@ int main(){
 
     while(n != 0){
         int rem = n % 10;
+        if ((ans > INT8_MAX / 10) || (ans < INT8_MIN / 10)){
+            return 0;
+        }
         ans = (ans * 10) + rem;
         n = n / 10;
     }
