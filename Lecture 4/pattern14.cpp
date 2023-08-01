@@ -10,11 +10,21 @@ int main(){
 // row = 3
 // col = 3
 
-    // int n;
-    // cout << "Enter no of rows: ";
-    // cin >> n;
-    // int i = 1;
-    
+    int n;
+    cout << "Enter no of rows: ";
+    cin >> n;
+    int i = 0;
+     while(i < n){
+        int j = 1;
+        char ch = 'A' + i ;
+        while(j <= n){           
+            cout << ch  << "  ";
+            j++;  
+            ch++;         
+        }
+        cout << endl;
+        i++;
+     }
 
     // while(i <= n){
     //     int j = 1;

@@ -1,7 +1,3 @@
-#include<iostream>
-using namespace std;
-
-int main(){
 //-------------
 //    _ _ _ *
 //    _ _ * *
@@ -11,26 +7,36 @@ int main(){
 // Square matrix
 // 1 loop for space and 1 loop for stars
 //Space = n - rows
+#include<iostream>
+using namespace std;
+
+int main(){
+
 
     int n;
     cout << "Enter no of rows: ";
     cin >> n;
-    int row = 1;
+    int i = 1;
 
-    while(row <= n){
-        // print space
-        int space = n - row ;
+    while(i <= n){
+
+        
+        // print space logic
+        int space = n - i ;
         while(space){
             cout << "  " ;
             space -- ;
         }
-        //print *
-        int col = 1;
-        while(col <= row){           
+
+        //print * logic
+        int j = 1;
+        while(j <= i){           
             cout << "* ";
-            col++;          
+            j++;          
         }
+        
         cout << endl;
-        row++;
+        i++;
     }
 }
+

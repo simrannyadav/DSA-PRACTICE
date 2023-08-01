@@ -17,11 +17,22 @@ int main(){
     cin >> n;
     int i = 1;
 
-    while(i <=n){
-        int j = 1;
-        while(j <= n){
-            cout << n- j + 1<< "  ";
-            j++;
+    // while(i <=n){
+    //     int j = 1;
+    //     while(j <= n){
+    //         cout << n- j + 1<< "  ";
+    //         j++;
+    //     }
+    //     cout << endl;
+    //     i++;
+    // }
+
+
+     while(i <=n){
+        int j = n;
+        while(j >=1){
+            cout << j << "  ";
+            j--;
         }
         cout << endl;
         i++;
