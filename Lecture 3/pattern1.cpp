@@ -42,7 +42,7 @@ int main(){
 // row =3
 // every row has row no
 // first row 1, second row 2, third row 3....
-// col = i, wwhere i = current row
+// col = i, where i = current row
 
     int n;
     cout << "Enter no of rows: ";

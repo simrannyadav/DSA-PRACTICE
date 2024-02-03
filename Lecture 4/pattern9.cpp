@@ -33,6 +33,7 @@ int main(){
 
 
 
+//HW: WITHOUT USING A VARIABLE
 
     int n;
     cout << "Enter no of rows: ";
