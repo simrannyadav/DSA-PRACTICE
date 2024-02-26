@@ -24,7 +24,30 @@ int main(){
         cout<<endl;
     }
 
-   
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+//     int n;
+//     cout<<"Enter no of rows:";
+//     cin>>n;
+//     int i = n;
+//     while(i>=1){
+//         int space = n - i;
+//         //space
+//         while(space){
+//             cout<<" ";
+//             space--;
+//         }
+//         int j = 1;
+//         while(j<=i){
+//             cout<<"*";
+//             j++;
+//         }
+//     cout<<endl;
+//     i--;
+//     }
+// }
     
 
 

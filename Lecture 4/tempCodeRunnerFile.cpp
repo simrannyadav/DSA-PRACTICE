@@ -1,5 +1,5 @@
-int space = n - i ;
-        // while(space){
-        //     cout << "  " ;
-        //     space -- ;
+ // j = n;
+        // while( j <= (i - 1) * 2 ){
+        //     cout << "*";
+        //     j-- ;
         // }
