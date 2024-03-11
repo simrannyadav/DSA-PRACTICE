@@ -24,6 +24,35 @@
 
 //kisi bhi no  ka last digit nikalna hai to, rem lo aur chota karna hai to / by 10 kardo 
 
+
+// //1st approach
+// #include<iostream>
+// #include<math.h>
+// using namespace std;
+
+// int main(){
+
+//     int n;
+//     cout << "Enter no : " ;
+//     cin >> n ;
+
+//     float ans = 0;
+//     int i = 0;
+
+//     while(n != 0){
+//         int digit = n & 1;
+//         ans = (digit * pow(10, i) ) + ans; 
+//         n = n >> 1;
+//         i++;
+//     }
+//     cout<< ans;
+// }
+
+
+
+
+
+//2nd approach
 #include<iostream>
 #include<math.h>
 using namespace std;
@@ -34,13 +63,13 @@ int main(){
     cout << "Enter no : " ;
     cin >> n ;
 
-    int ans = 0;
+    float ans= 0;
     int i = 0;
 
     while(n != 0){
-        int digit = n & 1;
-        ans = (digit * pow(10, i) ) + ans; 
-        n = n >> 1;
+        int rem = n % 2;
+        ans = (rem * pow(10, i) ) + ans; 
+        n = n / 2;
         i++;
     }
     cout<< ans;

@@ -1,7 +1,7 @@
 // Post Increment : i++  -----> after use inc
 // Pre Increment : ++i -----> before use inc
 
-// Post Decrement : i++  -----> after use dec
+// Post Decrement : i--  -----> after use dec
 // Pre Decrement : --i -----> before use dec
 
 #include<iostream>

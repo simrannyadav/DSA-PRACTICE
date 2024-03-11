@@ -7,7 +7,6 @@
 //  1 1   1
 
 
-
 // OR --> |  -->(Add)
 //  0 0   0
 //  0 1   1
@@ -24,8 +23,6 @@
 //  0 1   1
 //  1 0   1
 //  1 1   0
-
-
 
 
 // Left Shift <<
@@ -47,14 +44,18 @@ using namespace std;
 
 int main(){
 
-    // int a = 4 ;
-    // int b = 6 ;
+    int a = 4 ;
+    int b = 6 ;
     
-    // cout << " a & b : " << (a&b) <<endl ;
-    // cout << " a | b : " << (a|b) <<endl ;
-    // cout << " ~ a : " << (~a)  <<endl ;
-    // cout << " ~ b  : " << (~b) <<endl ;
-    // cout << " a ^ b : " << (a^b) <<endl ;
+    cout<< " a & b : " << (a&b) <<endl ;
+    cout<< " a | b : " << (a|b) <<endl ;
+    cout<< " ~ a : " << (~a)  <<endl ;
+    cout<< " ~ b  : " << (~b) <<endl ;
+    cout<< " a ^ b : " << (a^b) <<endl ;
+
+    cout<< " a >>  1 : " << (a >>  1) <<endl ;
+    cout<< " a <<  1 : " << (a <<  1) <<endl ;
+    
 }
 
 

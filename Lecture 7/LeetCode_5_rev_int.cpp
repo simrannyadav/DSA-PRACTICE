@@ -1,7 +1,8 @@
-// reverse an integer
+reverse an integer
 
-// CASE 1 : Normal
-// CASE 2 : Out of range
+CASE 1 : Normal
+CASE 2 : Out of range
+
 
 #include<iostream>
 using namespace std;
