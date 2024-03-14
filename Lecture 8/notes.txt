@@ -1,0 +1,4 @@
+nested switch is possible
+switch in infinite loop --> use exit()
+
+in switch, using continue is  not valid
