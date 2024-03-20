@@ -1,0 +1,32 @@
+Similar type of data
+Data storred in contiguos loctaion
+Data can be accessed through index
+
+
+Why to use array?
+--> To store multiple value in a single variable
+
+int v[5];
+v[0] -> 1st loctaion
+mem loc --> 100   104   108  112  116(int= 4 bytes)
+
+v[1] = 100 + 1 * 4 = 104
+v[3] = 100 + 3 * 4 = 112
+
+
+indexing --> 0 to n-1
+
+
+
+
+//BAD PRACTICE
+int size;
+    cout<<"Enter the size: ";
+    cin>>size;
+    int num[size];
+
+
+// GOOD PRACTICE
+declare a size before only.
+
+
