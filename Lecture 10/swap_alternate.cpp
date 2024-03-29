@@ -45,8 +45,12 @@ using namespace std;
 //BABBAR LOGIC
 
 void swapAlternate(int arr[],int size){
+    int temp;
     for(int i = 0; i+1 < size; i+=2){
-        swap(arr[i],arr[i+1]);
+        temp = arr[i+1];
+        arr[i+1] = arr[i];
+        arr[i] = temp;
+        //swap(arr[i],arr[i+1]);
         cout<<arr<<endl;
         
     }
