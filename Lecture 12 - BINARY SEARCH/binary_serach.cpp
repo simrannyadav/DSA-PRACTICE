@@ -1,0 +1,1 @@
+//works only on montononic funcation
